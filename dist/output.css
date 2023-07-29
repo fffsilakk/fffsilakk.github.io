@@ -542,6 +542,10 @@ video {
   z-index: 10;
 }
 
+.float-right {
+  float: right;
+}
+
 .-mr-20 {
   margin-right: -5rem;
 }
@@ -558,16 +562,12 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
 
-.block {
-  display: block;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -614,6 +614,10 @@ video {
   cursor: text;
 }
 
+.cursor-progress {
+  cursor: progress;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -628,6 +632,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -661,29 +669,8 @@ video {
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
 
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .fill-current {
   fill: currentColor;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-1 {
@@ -716,13 +703,13 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -733,6 +720,11 @@ video {
 .text-slate-100 {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-slate-300 {
@@ -748,11 +740,6 @@ video {
 .text-teal-600 {
   --tw-text-opacity: 1;
   color: rgb(13 148 136 / var(--tw-text-opacity));
-}
-
-.text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -811,12 +798,6 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media not all and (min-width: 1280px) {
-  .max-xl\:h-full {
-    height: 100%;
-  }
-}
-
 @media not all and (min-width: 1024px) {
   .max-lg\:mt-10 {
     margin-top: 2.5rem;
@@ -836,17 +817,5 @@ body {
 
   .max-lg\:pl-2 {
     padding-left: 0.5rem;
-  }
-}
-
-@media not all and (min-width: 768px) {
-  .max-md\:h-full {
-    height: 100%;
-  }
-}
-
-@media not all and (min-width: 640px) {
-  .max-sm\:h-full {
-    height: 100%;
   }
 }
