@@ -10,6 +10,6 @@ body {
 
 @media (max-width: 640px) {
   .hide-on-mobile {
-    display: none; /* Menyembunyikan elemen dengan tag p */
+    display: none;
   }
 }
