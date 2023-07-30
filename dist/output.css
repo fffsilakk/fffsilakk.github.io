@@ -762,11 +762,6 @@ body {
   background-color: rgb(17 94 89 / var(--tw-bg-opacity));
 }
 
-.hover\:decoration-slice:hover {
-  -webkit-box-decoration-break: slice;
-          box-decoration-break: slice;
-}
-
 .hover\:text-slate-400:hover {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -785,10 +780,6 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:decoration-inherit:hover {
-  text-decoration-color: inherit;
 }
 
 @media not all and (min-width: 1024px) {
