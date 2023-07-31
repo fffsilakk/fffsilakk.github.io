@@ -598,6 +598,10 @@ video {
   width: 100%;
 }
 
+.w-8\/12 {
+  width: 66.666667%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -787,6 +791,10 @@ body {
     margin-top: 2.5rem;
   }
 
+  .max-lg\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
   .max-lg\:block {
     display: block;
   }
@@ -797,6 +805,22 @@ body {
 
   .max-lg\:h-full {
     height: 100%;
+  }
+
+  .max-lg\:w-20 {
+    width: 5rem;
+  }
+
+  .max-lg\:w-1\/4 {
+    width: 25%;
+  }
+
+  .max-lg\:w-9\/12 {
+    width: 75%;
+  }
+
+  .max-lg\:w-11\/12 {
+    width: 91.666667%;
   }
 
   .max-lg\:pl-2 {
